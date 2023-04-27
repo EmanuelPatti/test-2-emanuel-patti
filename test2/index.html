@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <!-- bootstrap style -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-KK94CHFLLe+nY2dmCWGMq91rCGa5gtU4mk92HdvYe+M/SXH301p5ILy+dN9+nJOZ" crossorigin="anonymous">
+    <!-- my style -->
+    <link rel="stylesheet" href="style.css">
+    <title>test-2</title>
+</head>
+<body id="sfondo">
+    <!-- Quali sono le differenze tra JS e TypeScript?
+        QUALI SONO LE principali carrateristiche proprie di css?
+        Quali sono i principali concetti di programmazione in JavaScript?  Quale la principale forma di polimorfismo che c'è in js? Cos'è html e perchè e definito un non linguaggio di programmazione?
+        a Tutti
+        Creare un sito che esponga le domande usando obbligatoriamente ( CSS, JS E HTML ) -->
+        
+        <!-- intestazione -->
+        
+        <header style="background-color: black; height: 15vh;">
+            <button onclick="myFunction()">Cambia sfondo</button>
+
+            <h1 style="text-align: center;color: aliceblue;">TEST-2</h1>
+        </header>
+        <!--contenuto-->
+            <div class="container">
+                <div class="row justify-content-center">
+                    <!-- primo paragrafo -->
+                    <div class="col-12 col-md-5 colonna m-3">
+                        <h2 style="text-align: center;"> Le principali carrateristiche proprie del CSS</h2>
+                        <p>Il <span>CSS</span> è un linguaggio di stile che dona alla nostra pagina una proprià identità cercando di renderla originale, CSS sta per Cascading Style Sheets che sarebbe il principio a cascata ovvero che i comandi vengono eseguiti dall'alto verso il basso. Inoltre possiamo pure utilizzare degli identificatori o classi che richiamati sul foglio di stile potranno sovrascrivere determinati dati messi da noi in precedenza essendo loro più 'forti'.</p>
+                    </div>
+                    <!-- secondo paragrafo -->
+                    <div class="col-12 col-md-5 colonna m-3">
+                        <h2 style="text-align: center;">Le principali differenze tra JS e Typescript</h2>
+                        <p id="paragrafoJs"></p><br>
+                    </div>
+                    
+                    <div class="col-12 col-md-3 m-3 text-center bg-black text-white p-3">
+                        <h2>
+                            la principale forma di polimorfismo che c'è in Javascript
+                        </h2>
+                        Penso che la principale forma di polimorfismo che c'è in Javascript son gli Array perchè possono contenere qualsiasi tipo di dato al loro interno
+                    </div>
+                    <!-- lista -->
+                    <div class="col-12 col-md-8">
+                        <ul>
+                            <h2 style="text-align: center;" class="border border-5">I principali concetti di programmazione di JavaScript includono:</h2>
+                            <li>   
+                                1. Variabili: le variabili consentono di assegnare un valore a un nome.                 
+                            </li>
+                            <li>   
+                                2. Funzioni: le funzioni sono blocchi di codice che eseguono un'azione specifica.                   
+                            </li>
+                            <li>   
+                                3. Oggetti: gli oggetti consentono di raggruppare dati e funzionalità in un unico elemento.                 
+                            </li>
+                            <li>   
+                                4. Array: gli array sono strutture dati che consentono di contenere più valori in una singola variabile.                  
+                            </li>
+                            <li>   
+                                5. Condizioni: le condizioni consentono di eseguire determinati blocchi di codice solo se si verifica una determinata condizione.                   
+                            </li>
+                            <li>    
+                                6. Cicli: i cicli consentono di eseguire ripetutamente un blocco di codice finché non viene soddisfatta una determinata condizione.                    
+                            </li>
+                            <li>     
+                                7. Eventi: gli eventi consentono di eseguire un'azione quando si verifica determinato evento, come il clic del mouse su un elemento HTML.                   
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            
+            
+      
+        
+        
+        <!-- script-bootstrap -->
+
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ENjdO4Dr2bkBIFxQpeoTz1HIcje39Wm4jDKdf19U8gI4ddQ3GYNS7NTKfAdVQSZe" crossorigin="anonymous"></script>
+        
+        <!-- my-script -->
+
+        <script src="./script.js"></script>
+    </body>
+    </html>
